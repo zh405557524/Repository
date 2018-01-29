@@ -24,14 +24,14 @@ android {
 
 }
 publish {
-    repoName="ycjiang"//仓库名
-    userOrg = 'ycjiang'      //bintray注册的用户名
-    groupId = 'com.ycjiang'         //compile引用时的第1部分groupId
-    artifactId = 'QiniuModule'     //compile引用时的第2部分项目名
+    repoName="Repository"//仓库名
+    userOrg = 'zh405557524'      //bintray注册的用户名
+    groupId = 'com.hongfans'         //compile引用时的第1部分groupId
+    artifactId = 'repository'     //compile引用时的第2部分项目名
     publishVersion = '1.0.1'    //compile引用时的第3部分版本号
-    desc = 'This is a rxbus same of eventbus extend library '//d项目描述
-    repoName="ycjiang" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
-    website = '' //github 托管地址
+    desc = 'lib资源库'//d项目描述
+    repoName="Repository" //你的仓库名称，没有填写默认仓库是maven//这也是很多人上传仓库不对名问题最多情况，
+    website = 'https://github.com/zh405557524/Repository.git' //github 托管地址
 }
 
 dependencies {
